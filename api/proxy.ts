@@ -1,7 +1,7 @@
 import { createProxyMiddleware } from 'http-proxy-middleware'
 
 const apiProxy = createProxyMiddleware({
-  target: 'https://api.besscroft.com/@api',
+  target: 'https://pic.furrysp.top/@api',
   changeOrigin: true,
   pathRewrite: {
     '^/@api/': '/',
